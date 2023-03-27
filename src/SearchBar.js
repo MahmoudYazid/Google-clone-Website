@@ -50,7 +50,7 @@ export default function SearchBar() {
           onBlur={FocusOut}
           onChange={(e) => {
             if (e.target.value.length > 0) {
-              document.getElementById("SeachInputBar").style.height = "100px";
+              document.getElementById("SeachInputBar").style.height = "5rem";
               console.log(e.target.value);
               if (
                 e.target.value == "mahmou" ||
@@ -64,13 +64,15 @@ export default function SearchBar() {
                 document.getElementById("mahmoudlink").style.visibility =
                   "hidden";
 
-                document.getElementById("SeachInputBar").style.height = "6vh";
+                document.getElementById("SeachInputBar").style.height =
+                  "2.4rem";
               }
               if (e.target.value == "") {
                 document.getElementById("mahmoudlink").style.visibility =
                   "hidden";
 
-                document.getElementById("SeachInputBar").style.height = "6vh";
+                document.getElementById("SeachInputBar").style.height =
+                  "2.4rem";
               }
             }
             SetNAME(e.target.value);

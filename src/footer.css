@@ -1,14 +1,28 @@
+.FooterDiv{
+    flex-grow: 1;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+    
+}
 
 .footerTwo{
     
     min-width: 100%;
     height: 3.4rem;
     background-color:  rgb(23,23,23);
-    position: absolute;
-    top: 92.3%;
+
+    margin-top: auto;
+    top: 0;
+    bottom: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
     
 
 }
@@ -60,17 +74,7 @@
     display: inline;
 }
 
-.FooterDiv{
-    flex-grow: 1;
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: auto;
 
-    
-}
 
 @media screen and (max-width:428px){
     
@@ -81,7 +85,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: auto;
+    margin-top: 100vh;
 
     
 }
@@ -90,8 +94,9 @@
     min-width: 100%;
     height: 20%;
     background-color:  rgb(23,23,23);
-    position: absolute;
-    
+    margin-top: auto;
+    top: 0;
+    bottom: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -150,6 +155,7 @@ div .TextContainerOne .SearchWorkWordClass{
 .FooterDiv{
     visibility: hidden;
     position: absolute;
+    margin-top: auto;
 }
 }
 
