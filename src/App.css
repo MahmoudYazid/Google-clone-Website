@@ -1,5 +1,6 @@
 #App{
     background-color: rgb(32, 33,36);
     height: 100vh;
-    width: 100%;
+    max-width: 100%;
+ 
 }

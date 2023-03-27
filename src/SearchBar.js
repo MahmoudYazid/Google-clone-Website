@@ -18,7 +18,7 @@ export default function SearchBar() {
          const GetSearchInputBar = document.getElementById("SeachInputBar");
          GetTextInput.style.backgroundColor = "   rgb(32, 33, 36)";
          GetSearchInputBar.style.backgroundColor =" rgb(32, 33, 36)";
-         document.getElementById("SeachInputBar").style.height = "6vh";
+         document.getElementById("SeachInputBar").style.height = "2.4rem";
        
 
             
@@ -33,14 +33,15 @@ export default function SearchBar() {
         document.getElementById("mahmoudlink").style.visibility = "hidden";
       }}
     >
-      <AiOutlineSearch className="AiOutlineSearch"></AiOutlineSearch>
       <img src={googlelogo} alt="googlelogo" className="ImgLogo"></img>
+
       <div
         id="SeachInputBar"
         className="SearchBarDiv"
         onFocusCapture={HANDLEfUNC}
         onBlur={FocusOut}
       >
+        <AiOutlineSearch className="AiOutlineSearch"></AiOutlineSearch>
         <input
           type="text"
           id="SeachInputText"
@@ -99,8 +100,17 @@ export default function SearchBar() {
         <p className="Feeling_LuckyText">I'm Feeling Lucky</p>
       </div>
       <p className="textUnderSearchContainer">
-        <p style={{ display: "inline",marginRight:"10px" }}>Google offered in:</p>
-        <p style={{ color: "rgb(163, 196, 249)", display: "inline",cursor:"pointer" }} id='arabic'>
+        <p style={{ display: "inline", marginRight: "10px" }}>
+          Google offered in:
+        </p>
+        <p
+          style={{
+            color: "rgb(163, 196, 249)",
+            display: "inline",
+            cursor: "pointer",
+          }}
+          id="arabic"
+        >
           العربية
         </p>
       </p>
