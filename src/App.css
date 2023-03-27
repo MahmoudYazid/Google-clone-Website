@@ -2,5 +2,8 @@
     background-color: rgb(32, 33,36);
     height: 100vh;
     max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
  
 }

@@ -1,22 +1,30 @@
 .MainCintainerNavBar{
     height: 10%;
-    max-width: 100%;
+   
         background-color: rgb(32, 33, 36);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+     flex-grow: 1;
+ width: 100%;
+    
+    max-width: 100%;
+   display: block;
     
 }
 .Signinbtm{
     position: relative;
-    flex: 1;
+    
     height: 2.3rem;
-    max-width: 6rem ;
+    
+    min-width: 6rem ;
     background-color: rgb(138, 180, 248);
     border-radius: 7px;
     margin-top: 1rem;
     margin-right: 1rem;
+   
     cursor: pointer;
+    display: inline-flex;
   
     
     
@@ -38,7 +46,7 @@
    
     position: relative;
     right: 25px;
-    top: 6px;
+    bottom:  .6rem;
     display: inline;
    
   
@@ -48,12 +56,13 @@
     background-color: rgb(32, 33, 36);
     min-width: 2.5rem;
     height: 40px;
-    top: 15px;
+    bottom:.7rem;
     right: 15px;
     position: relative;
     cursor: pointer;
     border-radius: 100%;
     margin-left: .5rem;
+    display: inline-flex;
 }
 .SvgContainer:hover {
     background-color:rgb(81, 81, 81);
@@ -66,6 +75,7 @@
     top: 8px;
     right: 8px;
     cursor: pointer;
+    display: inline;
   
   
  
@@ -77,8 +87,10 @@
 }
 
 .NavWord{
+    bottom: 5rem ;
     margin-left: 20px;
     color: white;
+    display: inline-flex;
 
 }
 .NavWord:hover {
@@ -91,5 +103,6 @@
     flex-direction: row;
     display: flex;
    right: 30px;
-   top: 5px;
+   bottom: .6rem;
+   display: inline-flex;
 }
